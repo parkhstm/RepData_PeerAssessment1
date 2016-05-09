@@ -1,13 +1,11 @@
 ---
 title: "Reproducible research assignment1"
 author: "Hosub Park"
-date: "May 6th, 2016"
-output: html_document
+date: May 6, 2016
+output: 
+  md_document:
+    variant: markdown_github
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## 0. Getting data
 I forked [original Github repo](https://github.com/rdpeng/RepData_PeerAssessment1.git) to [my repo](https://github.com/parkhstm/RepData_PeerAssessment1.git), and then cloned it to my local repo. The raw data file(activity.zip) in repo was unzipped to my working directory for R.
